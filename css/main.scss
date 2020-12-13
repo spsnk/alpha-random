@@ -199,17 +199,11 @@ body {
   z-index: 1;
 }
 
-.cards {
-  .col-4 {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
 .card {
   border: 1px solid #b03737;
   border-radius: 10px;
   background-color: #192a33;
-  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 1rem;
 }
 
 .icons {
@@ -252,10 +246,8 @@ body {
 
 .footext {
   margin-bottom: 1rem;
-  .col {
-    background-color: black;
-    padding: 1rem;
-    border-radius: 10px;
-    border: 1px solid #b03737;
-  }
+  background-color: black;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #b03737;
 }
