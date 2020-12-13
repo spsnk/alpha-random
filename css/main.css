@@ -6334,3 +6334,13 @@ body {
 .icons .fa-apple {
   background-color: green;
 }
+
+.footext {
+  margin-bottom: 1rem;
+}
+.footext .col {
+  background-color: black;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #b03737;
+}
