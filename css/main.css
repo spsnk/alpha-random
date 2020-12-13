@@ -6167,7 +6167,7 @@ body {
 }
 
 .video-overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -6274,5 +6274,57 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  font-size: 1.5em;
+}
+
+.overlap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -75%);
+  position: absolute;
+  z-index: 1;
+}
+
+.card {
+  border: 1px solid #b03737;
+  border-radius: 10px;
+  background-color: #192a33;
+}
+
+.icons {
+  border-radius: 100px;
+  border-width: 1px;
+  border-color: #f0b241;
+  border-style: solid;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.icons span {
+  display: inline-block;
+  border-radius: 50%;
+  color: #000;
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  color: white;
+}
+.icons .pill {
+  font-size: 1rem;
+  border-radius: 100px;
+  height: 3rem;
+  width: 10rem;
+  background-color: #b48e74;
+  color: white;
+}
+.icons .pill:hover {
+  background-color: white;
+  color: black;
+}
+.icons .fa-android {
+  background-color: red;
+}
+.icons .fa-apple {
+  background-color: green;
 }
