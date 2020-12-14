@@ -110,7 +110,7 @@ body {
     display: none;
   }
   body {
-    background: url("../img/bg.webp");
+    background: center center url("../img/bg.webp");
     background-size: cover;
   }
 }
@@ -162,8 +162,7 @@ body {
 
 .msg-btn {
   .btn {
-    border-radius: 1em;
-    font-size: 2rem;
+    border-radius: 2em;
     font-weight: bold;
     &:hover {
       $shadow: rgb(169, 212, 89);
@@ -213,6 +212,7 @@ body {
   border-style: solid;
   margin-bottom: 1rem;
   padding: 0.5rem;
+  width: max-content;
   span {
     display: inline-block;
     border-radius: 50%;
@@ -227,8 +227,6 @@ body {
   .pill {
     font-size: 1rem;
     border-radius: 100px;
-    height: 3rem;
-    width: 10rem;
     background-color: #b48e74;
     color: white;
     &:hover {
@@ -238,6 +236,7 @@ body {
   }
   .fa-android {
     background-color: red;
+    font-size: 1.45rem;
   }
   .fa-apple {
     background-color: green;

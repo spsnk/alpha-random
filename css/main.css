@@ -6201,7 +6201,7 @@ body {
   }
 
   body {
-    background: url("../img/bg.webp");
+    background: center center url("../img/bg.webp");
     background-size: cover;
   }
 }
@@ -6252,8 +6252,7 @@ body {
 }
 
 .msg-btn .btn {
-  border-radius: 1em;
-  font-size: 2rem;
+  border-radius: 2em;
   font-weight: bold;
 }
 .msg-btn .btn:hover {
@@ -6299,6 +6298,7 @@ body {
   border-style: solid;
   margin-bottom: 1rem;
   padding: 0.5rem;
+  width: max-content;
 }
 .icons span {
   display: inline-block;
@@ -6314,8 +6314,6 @@ body {
 .icons .pill {
   font-size: 1rem;
   border-radius: 100px;
-  height: 3rem;
-  width: 10rem;
   background-color: #b48e74;
   color: white;
 }
@@ -6325,6 +6323,7 @@ body {
 }
 .icons .fa-android {
   background-color: red;
+  font-size: 1.45rem;
 }
 .icons .fa-apple {
   background-color: green;
