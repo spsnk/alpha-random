@@ -1,1 +1,6 @@
 background.mp4 filter=lfs diff=lfs merge=lfs -text
+
+*.html html eol=lf 
+*.css css eol=lf 
+*.scss scss eol=lf 
+*.js js eol=lf 

@@ -6145,8 +6145,8 @@ body {
   animation-timing-function: linear;
   -webkit-animation-name: ticker;
   animation-name: ticker;
-  -webkit-animation-duration: 60s;
-  animation-duration: 60s;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
 }
 .ticker-wrap .ticker__item {
   display: inline-block;
