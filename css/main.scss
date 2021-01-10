@@ -103,17 +103,18 @@ body {
   #videoback {
     width: auto;
     height: 100%;
+    object-fit: cover;
   }
 }
-@media (max-width: 767px) {
-  #videoback {
-    display: none;
-  }
-  body {
-    background: center center url("../img/bg.webp");
-    background-size: cover;
-  }
-}
+// @media (max-width: 767px) {
+//   #videoback {
+//     display: none;
+//   }
+//   body {
+//     background: center center url("../img/bg.webp");
+//     background-size: cover;
+//   }
+// }
 .opacity-0 {
   opacity: 0 !important;
 }

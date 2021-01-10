@@ -6193,16 +6193,7 @@ body {
   #videoback {
     width: auto;
     height: 100%;
-  }
-}
-@media (max-width: 767px) {
-  #videoback {
-    display: none;
-  }
-
-  body {
-    background: center center url("../img/bg.webp");
-    background-size: cover;
+    object-fit: cover;
   }
 }
 .opacity-0 {
